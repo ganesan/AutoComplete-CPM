@@ -7,6 +7,8 @@ Lime autocomplete is still work in progress and is not complete with the entire 
 Issues with LevelHelper list.
 PubNub is just a test.
 
+CoronaUI (Ansca Official lib) is written from the Reference Docs, please refer to the official documents for further info on what they do and how to use.
+
 These files were written with a lot of Copy/past so there might be some or many errors.....
 
 Follow me on twitter for updates.
