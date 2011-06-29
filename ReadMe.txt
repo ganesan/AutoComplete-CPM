@@ -13,6 +13,4 @@ I intend to push this to GitHub when it's a little better and works properly.
 
 Follow me on twitter for updates.
 
-AutoCompleteAdditions.txt is created by Nerderer.
-
 @lano78
