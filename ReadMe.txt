@@ -9,8 +9,6 @@ PubNub is just a test.
 
 These files were written with a lot of Copy/past so there might be some or many errors.....
 
-I intend to push this to GitHub when it's a little better and works properly.
-
 Follow me on twitter for updates.
 
 @lano78
