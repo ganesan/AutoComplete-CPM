@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>VariousLibs.lua</string>
+	<string>ReadMe.txt</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>ReadMe.txt</string>
 			<key>lastUsed</key>
-			<date>2011-06-24T22:17:25Z</date>
+			<date>2011-06-29T15:25:19Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -22,9 +24,7 @@
 			<key>filename</key>
 			<string>VariousLibs.lua</string>
 			<key>lastUsed</key>
-			<date>2011-06-26T17:49:35Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2011-06-29T15:25:19Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -58,14 +58,7 @@
 		</dict>
 		<dict>
 			<key>children</key>
-			<array>
-				<dict>
-					<key>filename</key>
-					<string>AutoCompleteAdditions.txt</string>
-					<key>lastUsed</key>
-					<date>2011-06-26T13:55:21Z</date>
-				</dict>
-			</array>
+			<array/>
 			<key>expanded</key>
 			<true/>
 			<key>name</key>
@@ -76,20 +69,6 @@
 	<integer>151</integer>
 	<key>metaData</key>
 	<dict>
-		<key>AutoCompleteAdditions.txt</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>20</integer>
-				<key>line</key>
-				<integer>330</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>408</integer>
-		</dict>
 		<key>AutoCompleteLevelHelper.lua</key>
 		<dict>
 			<key>caret</key>
@@ -160,6 +139,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>ReadMe.txt</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>14</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>VariousLibs.lua</key>
 		<dict>
 			<key>caret</key>
@@ -182,7 +175,7 @@
 		<string>AutoCompleteLevelHelper.lua</string>
 		<string>CoronaAutoCompleteList.lua</string>
 		<string>VariousLibs.lua</string>
-		<string>AutoCompleteAdditions.txt</string>
+		<string>ReadMe.txt</string>
 		<string>AutoCompleteLime.lua</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
