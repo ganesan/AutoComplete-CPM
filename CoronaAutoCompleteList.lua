@@ -358,7 +358,7 @@ rawget ( <#table#>, <#index#> )
 rawset ( <#table#>, <#index#>, <#value#> )
 removeSelf()
 repeat
-require ( <#moduleName#> )
+require ( "<#moduleName#>" )
 return
 select ( <#index#>, <#...#> )
 setfenv ( <#f#>, <#table#> )
