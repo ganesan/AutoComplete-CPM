@@ -25,6 +25,7 @@ getTextString()
 coronaui.newOnOffSwitch(<#x#>, <#y#>, "<#on/off#>")
 coronaui.newSliderControl(<#x#>, <#y#>, <#number#>)
 coronaui.createTabs(<#buttonsTable#>, <#x#>, <#y#>, <#customLeft#>, <#customMid#>, <#customRight#>, <#customOverLeft#>, <#customOverMid#>, <#customOverRight#>, <#tabLeft#>, <#tabMid#>, <#tabRight#>, <#tabOverLeft#>, <#tabOverRight#>)
+tabsTable = {  { "<#tab1Text#>", <#tab1ImgWidth#>, <#eventListener1#> }, { "<#tab2Text#>", <#tab2ImgWidth#>, <#eventListener2#> }, { "<#tab3Text#>", <#tab3ImgWidth#>, <#eventListener3#> }  }
 coronaui.newSearchScreen(<#listObjectToSearch#>, <#backScreen#>, <#startVisibleBOOL#>, <#width#>, "<#customBackImg#>", <#backImgWidth#>, <#backImgHeight#>, "<#custombackImgOver#>")
 coronaui.newRetinaText("<#textString#>", <#x#>, <#y#>, "<#fontName#>", <#fontSize#>, <#R#>, <#G#>, <#B#>, "<#alignment#>", <#emBossOnBOOL#>, <#parentGroup#>)
 updateText(<#stringName#>)
