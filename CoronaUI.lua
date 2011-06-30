@@ -6,7 +6,7 @@ addLeftButton("<#buttonText#>", <#eventListener#>, <#isLong#>, <#customImg#>, <#
 addRightButton("<#buttonText#>", <#eventListener#>, <#isLong#>, <#customImg#>, <#customOverImg#>, <#customWidth#>, <#customHeight#>, <#customLeft#>, <#customMid#>, <#customRight#>, <#customOverLeft#>, <#customOverMid#>, <#customOverRight#>)
 insertUnderTitle(<#displayObject#>)
 newList(<#top#>, <#bottom#>, <#hasTitleBOOL#>, <#hasStatusBarBOOL#>, <#rowHeight#>, <#selectionListBOOL#>, "<#fillColor#>", <#hideLinesBOOL#>, <#tearEffectBOOL#>, <#scrollDisabledBOOL#>, <#customTitleHeight#>)
-addItem({icon = "<#iconNamePNG#>", width = "<#number#>", height = "<#number#>"  }, "<#mainTitle#>", "<#subTitle#>", <#onTouch#>, <#hideArrowBOOL#>, <#isCategoryBOOL#>, "<#categoryBgImg#>", <#categoryHeight#>, <#categoryTextR#>, <#categoryTextG#>, <#categoryTextB#>)
+addItem({icon = "<#iconNamePNG#>", width = "<#number#>", height = "<#number#>" }, "<#mainTitle#>", "<#subTitle#>", <#onTouch#>, <#hideArrowBOOL#>, <#isCategoryBOOL#>, "<#categoryBgImg#>", <#categoryHeight#>, <#categoryTextR#>, <#categoryTextG#>, <#categoryTextB#>)
 removeItem(<#row#>)
 removeAllItems()
 printItems()
