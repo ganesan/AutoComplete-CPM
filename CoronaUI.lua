@@ -15,6 +15,7 @@ populateFromXML("<#xmlFileName#>")
 copyFromList(<#targetList#>, <#targetScreen#>, <#includeTouchEventsBOOL#>, <#selectionListBOOL#>)
 newPicker("<#wheelType#>", <#eventListener#>, <#startYear#>, <#endYear#>, <#selectedFirst#>, <#selectedSecond#>, <#selectedThird#>)
 addItem("<#pickerItemName#>")
+pickerData{"<#firstItem#>", "<#secondItem#>", "<#thirdItem#>", "<#fourthItem#>", "<#fifthItem#>", "<#sixthItem#>" }
 addItemsFromData(<#dataTable#>)
 hidePicker(<#pickerName#>)
 createTableList(<#rowsTable#>)
