@@ -358,7 +358,7 @@ rawget ( <#table#>, <#index#> )
 rawset ( <#table#>, <#index#>, <#value#> )
 removeSelf()
 repeat
-require ( <#moduleName#> )
+require ( "<#moduleName#>" )
 return
 select ( <#index#>, <#...#> )
 setfenv ( <#f#>, <#table#> )
@@ -833,6 +833,7 @@ populateFromXML("<#xmlFileName#>")
 copyFromList(<#targetList#>, <#targetScreen#>, <#includeTouchEventsBOOL#>, <#selectionListBOOL#>)
 newPicker("<#wheelType#>", <#eventListener#>, <#startYear#>, <#endYear#>, <#selectedFirst#>, <#selectedSecond#>, <#selectedThird#>)
 addItem("<#pickerItemName#>")
+pickerData{"<#firstItem#>", "<#secondItem#>", "<#thirdItem#>", "<#fourthItem#>", "<#fifthItem#>", "<#sixthItem#>" }
 addItemsFromData(<#dataTable#>)
 hidePicker(<#pickerName#>)
 createTableList(<#rowsTable#>)
