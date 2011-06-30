@@ -3,22 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>ReadMe.txt</string>
+	<string>CoronaUI.lua</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
-			<string>ReadMe.txt</string>
+			<string>CoronaUI.lua</string>
 			<key>lastUsed</key>
-			<date>2011-06-29T15:25:19Z</date>
+			<date>2011-06-29T23:21:49Z</date>
 			<key>selected</key>
 			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
+			<string>ReadMe.txt</string>
+			<key>lastUsed</key>
+			<date>2011-06-29T21:40:18Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
 			<string>AutoCompleteListCombined.lua</string>
 			<key>lastUsed</key>
-			<date>2011-06-26T17:49:35Z</date>
+			<date>2011-06-29T23:21:46Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -30,13 +36,13 @@
 			<key>filename</key>
 			<string>CoronaAutoCompleteList.lua</string>
 			<key>lastUsed</key>
-			<date>2011-06-26T13:55:25Z</date>
+			<date>2011-06-29T23:21:46Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>AutoCompleteLevelHelper.lua</string>
 			<key>lastUsed</key>
-			<date>2011-06-26T13:55:26Z</date>
+			<date>2011-06-29T23:21:49Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -102,14 +108,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>25</integer>
+				<integer>34</integer>
 				<key>line</key>
-				<integer>769</integer>
+				<integer>824</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>778</integer>
+			<integer>805</integer>
 		</dict>
 		<key>CoronaAutoCompleteList.lua</key>
 		<dict>
@@ -123,7 +129,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>339</integer>
+			<integer>509</integer>
 		</dict>
 		<key>CoronaLevelBuilder.lua</key>
 		<dict>
@@ -133,6 +139,20 @@
 				<integer>0</integer>
 				<key>line</key>
 				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>CoronaUI.lua</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>7</integer>
+				<key>line</key>
+				<integer>16</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -176,11 +196,12 @@
 		<string>CoronaAutoCompleteList.lua</string>
 		<string>VariousLibs.lua</string>
 		<string>ReadMe.txt</string>
+		<string>CoronaUI.lua</string>
 		<string>AutoCompleteLime.lua</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{52, 46}, {807, 827}}</string>
+	<string>{{-1, 35}, {753, 843}}</string>
 </dict>
 </plist>

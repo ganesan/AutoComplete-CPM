@@ -11,6 +11,8 @@ CoronaUI (Ansca Official lib) is written from the Reference Docs, please refer t
 
 These files were written with a lot of Copy/past so there might be some or many errors.....
 
+If you find any errors please let me know.
+
 Follow me on twitter for updates.
 
 @lano78
