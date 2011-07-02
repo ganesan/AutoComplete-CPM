@@ -1,9 +1,11 @@
 RoadMap
 
+- Corona(ify) all lists so there will be less typing.
+
 - Improve support for Lime. 
 
 - Rum lib by MonkeyDead Studios
-- WidgetLib by Ansca Mobile when available.
+- WidgetLib by Ansca Mobile when available, currently beta version available in Daily Builds.
 
 
 - Support for Coda
