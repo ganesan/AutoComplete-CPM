@@ -9,6 +9,8 @@ PubNub is just a test.
 
 CoronaUI (Ansca Official lib) is written from the Reference Docs, please refer to the official documents for further info on what they do and how to use.
 
+Corona Widget Lib is first draft and not tested in CPM, it's not complete with all api's. 
+
 These files were written with a lot of Copy/past so there might be some or many errors.....
 
 If you find any errors please let me know.
