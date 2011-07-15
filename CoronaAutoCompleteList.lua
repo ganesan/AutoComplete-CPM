@@ -3,29 +3,29 @@ analytics.logEvent ( <#eventID#> )
 and
 assert( <#v#> <#[, message]#> )
 audio.dispose ( <#audioHandle#> )
-audio.fade ( [ { [channel=<#c#>] [, time=<#t#>] [, volume=<#v#> ] } ] )
-audio.fadeOut ( [ { [channel=<#c#>] [, time=<#t#>] } ] )
+audio.fade ( [ { [channel = <#c#>] [, time = <#t#>] [, volume = <#v#> ] } ] )
+audio.fadeOut ( [ { [channel = <#c#>] [, time = <#t#>] } ] )
 audio.findFreeChannel ( <#[ startChannel ]#> )
 audio.freeChannels
 audio.getDuration ( <#audioHandle#> )
-audio.getMaxVolume ( { channel=<#c#> } )
-audio.getMinVolume ( { channel=<#c#> } )
-audio.getVolume ( [ { channel=<#c#> } ] )
+audio.getMaxVolume ( { channel = <#c#> } )
+audio.getMinVolume ( { channel = <#c#> } )
+audio.getVolume ( [ { channel = <#c#> } ] )
 audio.isChannelActive ( <#channel#> )
 audio.isChannelPaused ( <#channel#> )
 audio.isChannelPlaying ( <#channel#> )
 audio.loadSound ( <#audiofileName#> <#[, baseDir ]#> )
 audio.loadStream ( <#audiofileName#> <#[, baseDir ]#> )
 audio.pause ( <#[channel]#> )
-audio.play ( <#audioHandle#> [, { [channel=<#c#>] [, loops=<#l#>] [, duration=<#d#>] [, fadein=<#f#>] [, onComplete=<#o#>]  } ] )
+audio.play ( <#audioHandle#> [, { [channel = <#c#>] [, loops = <#l#>] [, duration = <#d#>] [, fadein = <#f#>] [, onComplete = <#o#>]  } ] )
 audio.reserveChannels ( <#channels#> )
 audio.reservedChannels
 audio.resume ( <#[channel]#> )
-audio.rewind ( [ <#audioHandle#> ] [, { channel=<#c#> } ] )
-audio.seek ( <#time#> <#[, audioHandle ]#> [, { channel=<#c#> } ] )
-audio.setMaxVolume ( <#volume#>, { channel=<#c#> } )
-audio.setMinVolume ( <#volume#>, { channel=<#c#> } )
-audio.setVolume ( <#volume#> [,{ channel=<#c#> }] )
+audio.rewind ( [ <#audioHandle#> ] [, { channel = <#c#> } ] )
+audio.seek ( <#time#> <#[, audioHandle ]#> [, { channel = <#c#> } ] )
+audio.setMaxVolume ( <#volume#>, { channel = <#c#> } )
+audio.setMinVolume ( <#volume#>, { channel = <#c#> } )
+audio.setVolume ( <#volume#> [,{ channel = <#c#> }] )
 audio.stop ( <#[channel]#> )
 audio.stopWithDelay ( <#duration#> <#[, { [ channel = c ] } ]#> )
 audio.totalChannels
@@ -75,11 +75,11 @@ display.newImageRect ( <#[parentGroup,]#> <#filename#> <#[, baseDirectory]#> <#w
 display.newLine( <#[parent,]#> <#x1#>, <#y1#>, <#x2#>, <#y2#> )
 display.newRect( <#[parentGroup,]#> <#left#>, <#top#>, <#width#>, <#height#> )
 display.newRoundedRect( <#[parentGroup,]#> <#left#>, <#top#>, <#width#>, <#height#>, <#cornerRadius#> )
-display.newText( <#[parentGroup,]#> "<#string#>", <#left#>, <#top#>, <#font#>, <#size#> )
+display.newText( <#parentGroup#>, "<#string#>", <#left#>, <#top#>, <#font#>, <#size#> )
 display.save ( <#displayObject#>, <#filename#> <#[, baseDirectory]#> )
 display.screenOriginX
 display.screenOriginY
-display.setDefault( <#key#>, <#r#>, <#g#>, <#b#> <#[,alpha]#> )
+display.setDefault( <#key#>, <#r#>, <#g#>, <#b#>, <#alpha#> )
 display.setStatusBar ( <#mode#> )
 display.statusBarHeight
 display.viewableContentHeight
@@ -252,7 +252,7 @@ myMap.isLocationVisible = <#Bool#>
 myMap.isScrollEnabled = <#Bool#>
 myMap.isZoomEnabled = <#Bool#>
 myMap.mapType = <#mapType#>
-myMap:addMarker ( <#latitude#>, <#longitude#>, [{ title="<#Displayed Title#>", subtitle="<#subtitle text#>" } ] )
+myMap:addMarker ( <#latitude#>, <#longitude#>, [{ title = "<#Displayed Title#>", subtitle = "<#subtitle text#>" } ] )
 myMap:getAddressLocation ( <#location#> )
 myMap:getUserLocation ( )
 myMap:removeAllMarkers ( )
@@ -307,20 +307,20 @@ object:getTunerVolume ( )
 object:isRecording ( )
 object:nextFrame ( )
 object:play ( )
-object:play { startFrame=<#startFrame#>, endFrame=<#endFrame#>, loop=<#loop#>, remove=<#removeBool#> }
+object:play { startFrame = <#startFrame#>, endFrame = <#endFrame#>, loop = <#loop#>, remove = <#removeBool#> }
 object:previousFrame ( )
 object:removeEventListener ( <#eventName#>, <#listener#> )
 object:reverse ( )
-object:reverse { startFrame=<#startFrame#>, endFrame=<#endFrame#>, loop=<#loop#>, remove=<#removeBool#> }
+object:reverse { startFrame = <#startFrame#>, endFrame = <#endFrame#>, loop = <#loop#>, remove = <#removeBool#> }
 object:rotate( <#deltaAngle#> )
 object:scale ( <#sx#>, <#sy#> )
-object:setDrag ( drag=<#true/false#> )
+object:setDrag ( drag = <#true/false#> )
 object:setFillColor ( <#red#>, <#green#>, <#blue#> <#[, alpha]#> )
-object:setLabels { frameLabel1=<#num1#>, frameLabel2=<#num2#>, frameLabelN=<#numN#> }
+object:setLabels { frameLabel1 = <#num1#>, frameLabel2 = <#num2#>, frameLabelN = <#numN#> }
 object:setReferencePoint ( <#referencePoint#> )
 object:setSampleRate( <#r#> )
-object:setStrokeColor ( <#red#>, <#green#>, <#blue#> <#[, alpha]#> )
-object:setTextColor ( <#red#>, <#green#>, <#blue#> <#[, alpha]#> )
+object:setStrokeColor ( <#red#>, <#green#>, <#blue#>, <#alpha#>)
+object:setTextColor ( <#red#>, <#green#>, <#blue#>, <#alpha#>)
 object:startRecording ( )
 object:startTuner ( )
 object:stop ( )
@@ -332,7 +332,7 @@ openfeint.downloadBlob ( <#blobKey#>, <#listenerFunction#> )
 openfeint.init ( <#productKey#>, <#productSecret#>, <#displayName#>, <#appId#> )
 openfeint.launchDashboard ( <#dashBoardView#> )
 openfeint.launchDashboard ( <#dashBoardView#>, <#options#> )
-openfeint.setHighScore ( { leaderboardID=<#ID#>, score=<#highScore#> <#[, displayText=displayString]#> } )
+openfeint.setHighScore ( { leaderboardID = <#ID#>, score = <#highScore#> <#[, displayText = displayString]#> } )
 openfeint.unlockAchievement ( <#achievementID#> )
 openfeint.uploadBlob ( <#blobKey#>, <#blobData#> )
 or
@@ -349,8 +349,8 @@ package.loaders
 package.seeall ( <#module#> )
 pairs ( <#t#> )
 pcall ( <#f#>, <#arg1#>, <#...#> )
-physics.addBody ( <#object#>, <#[bodyType,]#> {density=<#density#>, friction=<#friction#>, bounce=<#bounce#> [,radius=<#radius#>]} )
-physics.addBody ( <#object#>, <#[bodyType,]#> {density=<#density#>, friction=<#friction#>, bounce=<#bounce#> [,shape=<#shape#>]} )
+physics.addBody ( <#object#>, "<#bodyType#>", {density = <#density#>, friction = <#friction#>, bounce = <#bounce#>, radius = <#radius#>} )
+physics.addBody ( <#object#>, "<#bodyType#>", {density = <#density#>, friction = <#friction#>, bounce = <#bounce#>, shape = <#shape#>} )
 physics.newJoint ( <#jointType#>, <#object1#>, <#object2#>, <#anchorX#>, <#anchorY#> )
 print ( <#message(s)#> )
 rawequal ( <#v1#>, <#v2#> )
@@ -358,7 +358,7 @@ rawget ( <#table#>, <#index#> )
 rawset ( <#table#>, <#index#>, <#value#> )
 removeSelf()
 repeat
-require ( "<#moduleName#>" )
+require ( <#moduleName#> )
 return
 select ( <#index#>, <#...#> )
 setfenv ( <#f#>, <#table#> )
@@ -414,7 +414,7 @@ table.remove ( <#t#> <#[, pos]#> )
 table.sort ( <#t#> <#[, comp]#> )
 then
 timer.cancel ( <#timerId#> )
-timer.performWithDelay ( <#delay#>, <#listener#> <#[, iterations]#> )
+timer.performWithDelay ( <#delay#>, <#listener#>, <#iterations#> )
 tonumber ( <#e#> <#[, base]#> )
 tostring ( <#e#> )
 transition.cancel ( <#tween#> )
@@ -461,20 +461,20 @@ getTunerVolume ( )
 isRecording ( )
 nextFrame ( )
 play ( )
-play { startFrame=<#startFrame#>, endFrame=<#endFrame#>, loop=<#loop#>, remove=<#removeBool#> }
+play { startFrame = <#startFrame#>, endFrame = <#endFrame#>, loop = <#loop#>, remove = <#removeBool#> }
 previousFrame ( )
 removeEventListener ( <#eventName#>, <#listener#> )
 reverse ( )
-reverse { startFrame=<#startFrame#>, endFrame=<#endFrame#>, loop=<#loop#>, remove=<#removeBool#> }
+reverse { startFrame = <#startFrame#>, endFrame = <#endFrame#>, loop = <#loop#>, remove = <#removeBool#> }
 rotate( <#deltaAngle#> )
 scale ( <#sx#>, <#sy#> )
-setDrag ( drag=<#true/false#> )
-setFillColor ( <#red#>, <#green#>, <#blue#> <#[, alpha]#> )
-setLabels { frameLabel1=<#num1#>, frameLabel2=<#num2#>, frameLabelN=<#numN#> }
+setDrag ( drag = <#true/false#> )
+setFillColor ( <#red#>, <#green#>, <#blue#>, <#alpha#> )
+setLabels { frameLabel1 = <#num1#>, frameLabel2 = <#num2#>, frameLabelN = <#numN#> }
 setReferencePoint ( <#referencePoint#> )
 setSampleRate( <#r#> )
-setStrokeColor ( <#red#>, <#green#>, <#blue#> <#[, alpha]#> )
-setTextColor ( <#red#>, <#green#>, <#blue#> <#[, alpha]#> )
+setStrokeColor ( <#red#>, <#green#>, <#blue#>, <#alpha#> )
+setTextColor ( <#red#>, <#green#>, <#blue#>, <#alpha#> )
 startRecording ( )
 startTuner ( )
 stop ( )
@@ -565,3 +565,6 @@ event.deltaTime
 event.xRotation
 event.yRotation
 event.zRotation
+gameNetwork.init ( "<#providerName#>", "<#productKey#>", "<#secret#>", "<#displayName#>", "<#appID#>" )
+gameNetwork.request ( "<#command#>", <#[ parms ...]#> )
+gameNetwork.show ( "<#name#>", "<#[, data ...]#>" )
