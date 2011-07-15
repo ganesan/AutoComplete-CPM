@@ -1,3 +1,4 @@
+widget.newRoundedRectButton
 widget.newButton { id = "<#id#>", x = <#position#>, y = <#position#>, width = <#buttonWidth#>, height = <#buttonHeight#>, label = "<#label#>", labelColor = { <#R#>, <#G#>, <#B#> }, size = <#fontSize#>, font = "<#fontName#>", onPress = <#functionName#>, onRelease = <#functionName#>, onEvent = <#functionName#>, emboss = <#BOOL#>, offset = <#number#>, default = "<#customImage#>", over = "<#customOverImage#>"  }
 widget.newEmbossedText ("<#myText#>", <#xPos#>, <#yPos#>, "<#fontName#>", <#size#>, { <#R#>, <#G#>, <#B#> })
 widget.newPickerWheel (<##>,<##>, <##>, <##>, <##>, <##>,  <##>)
