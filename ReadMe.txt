@@ -11,7 +11,7 @@ CoronaUI (Ansca Official lib) is written from the Reference Docs, please refer t
 
 Corona Widget Lib is first draft and not tested in CPM, it's not complete with all api's. Please refer to the official documents for further info on what they do and how to use.
 
-These files were written with a lot of Copy/past so there might be some or many errors.....
+These files were written with a lot of copy/paste so there might be some or many errors.....
 
 If you find any errors please let me know.
 
