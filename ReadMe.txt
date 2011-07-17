@@ -1,3 +1,6 @@
+Please copy from each individual file as you need.
+
+
 Use AutoCompleteListCombined when adding to CPM. the .lua file extension is just used for syntax color and have no other purpose.
 
 Corona Api is copied from the Corona forum and started by the user PixelEnvision. List will be updated when it is possible.
