@@ -50,7 +50,7 @@ body:resetMassData ( )
 body:setLinearVelocity ( <#xVelocity#>, <#yVelocity#> )
 break
 crypto.digest ( <#algorithm#>, <#string#> <#[, raw]#> )
-crypto.hmac ( <#algorithm#>, <#string#>, <#key#> <#[, raw]#> )
+crypto.hmac ( <#algorithm#>, <#string#>, <#key#>, <#raw#> )
 crypto.md4
 crypto.md5
 crypto.sha1
@@ -66,17 +66,17 @@ display.contentScaleX
 display.contentScaleY
 display.contentWidth
 display.getCurrentStage ( )
-display.loadRemoteImage ( <#url#>, <#method#>, <#listener#> <#[, params]#>, <#destFilename#> <#[, baseDir]#> <#[, x, y]#> )
+display.loadRemoteImage ( <#url#>, <#method#>, <#listener#>, <#params#>, <#destFilename#>, <#baseDir#>, <#x, y#> )
 display.newCircle( <#xCenter#>, <#yCenter#>, <#radius#> )
 display.newGroup ( )
-display.newImage( <#filename#> <#[,baseDirectory]#> <#[,left,top]#> )
-display.newImage( <#[parentGroup,]#> <#filename#> <#[,baseDirectory]#> <#[,left,top]#> <#[,isFullResolution]#> )
-display.newImageRect ( <#[parentGroup,]#> <#filename#> <#[, baseDirectory]#> <#width#>, <#height#> )
+display.newImage( <#filename#>, <#baseDirectory#> <#[,left,top]#> )
+display.newImage( <#parentGroup#>, <#filename#>, <#baseDirectory#>, <#left#>, <#top#>, <#isFullResolution#> )
+display.newImageRect ( <#parentGroup#>, <#filename#>, <#baseDirectory#>, <#width#>, <#height#> )
 display.newLine( <#[parent,]#> <#x1#>, <#y1#>, <#x2#>, <#y2#> )
 display.newRect( <#[parentGroup,]#> <#left#>, <#top#>, <#width#>, <#height#> )
-display.newRoundedRect( <#[parentGroup,]#> <#left#>, <#top#>, <#width#>, <#height#>, <#cornerRadius#> )
+display.newRoundedRect( <#parentGroup#> <#left#>, <#top#>, <#width#>, <#height#>, <#cornerRadius#> )
 display.newText( <#parentGroup#>, "<#string#>", <#left#>, <#top#>, <#font#>, <#size#> )
-display.save ( <#displayObject#>, <#filename#> <#[, baseDirectory]#> )
+display.save ( <#displayObject#>, <#filename#>, <#baseDirectory#> )
 display.screenOriginX
 display.screenOriginY
 display.setDefault( <#key#>, <#r#>, <#g#>, <#b#>, <#alpha#> )
@@ -236,17 +236,17 @@ math.sqrt ( <#x#> )
 math.tan ( <#x#> )
 math.tanh ( <#x#> )
 media.getSoundVolume ( )
-media.newEventSound ( <#filename#> <#[, baseDir]#> )
-media.newRecording( <#[path]#> )
+media.newEventSound ( <#filename#>, <#baseDir#> )
+media.newRecording( <#path#> )
 media.pauseSound ( )
-media.playEventSound ( <#sound#> <#[, baseDir]#> <#[, completionListener]#> )
-media.playSound( <#soundfile#> <#[, baseDir]#> <#[, loop]#> )
-media.playSound( <#soundfile#> <#[, baseDir]#> <#[, onComplete]#> )
-media.playVideo( <#path#> <#[, baseSource ]#>, <#showControls#>, <#listener#> )
+media.playEventSound ( <#sound#>, <#baseDir#>, <#completionListener#> )
+media.playSound( <#soundfile#>, <#baseDir#>, <#loop#> )
+media.playSound( <#soundfile#>, <#baseDir#>, <#onComplete#> )
+media.playVideo( <#path#>, <#baseSource#>, <#showControls#>, <#listener#> )
 media.setSoundVolume( <#vol#> )
 media.show ( <#imageSource#>, <#listener#> )
 media.stopSound ( )
-module ( <#name#> <#[, ···]#> )
+module ( <#name#> <#[,···]#> )
 movieclip.newAnim ( <#frames#> )
 myMap.isLocationVisible = <#Bool#>
 myMap.isScrollEnabled = <#Bool#>
@@ -263,15 +263,15 @@ native.cancelWebPopup ( )
 native.getFontNames ( )
 native.newFont ( <#name#> <#[, size]#> )
 native.newTextBox ( <#left#>, <#top#>, <#width#>, <#height#> )
-native.newTextField ( <#left#>, <#top#>, <#width#>, <#height#> <#[, listener]#> )
+native.newTextField ( <#left#>, <#top#>, <#width#>, <#height#>, <#listener#> )
 native.setActivityIndicator ( <#stateBool#> )
 native.setKeyboardFocus ( <#textField#> )
 native.showAlert ( <#title#>, <#message#> <#[, buttonLabels [, listener]]#> )
-native.showWebPopup( <#url#> <#[, options]#> )  
-native.showWebPopup( <#x#>, <#y#>, <#width#>, <#height#>, <#url#> <#[, options]#> )
-network.download ( <#url#>, <#method#>, <#listener#> <#[, params]#>, <#destFilename#> <#[, baseDir]#> )
-network.request ( <#url#>, <#method#>, <#listener#> <#[, params]#> )
-next ( <#table#> <#[, index]#> )
+native.showWebPopup( <#url#>, <#options#> )  
+native.showWebPopup( <#x#>, <#y#>, <#width#>, <#height#>, <#url#>, <#options#> )
+network.download ( <#url#>, <#method#>, <#listener#>, <#params#>, <#destFilename#>, <#baseDir#> )
+network.request ( <#url#>, <#method#>, <#listener#>, <#params#> )
+next ( <#table#>, <#index#> )
 nil
 not
 object.align
@@ -315,7 +315,7 @@ object:reverse { startFrame = <#startFrame#>, endFrame = <#endFrame#>, loop = <#
 object:rotate( <#deltaAngle#> )
 object:scale ( <#sx#>, <#sy#> )
 object:setDrag ( drag = <#true/false#> )
-object:setFillColor ( <#red#>, <#green#>, <#blue#> <#[, alpha]#> )
+object:setFillColor ( <#red#>, <#green#>, <#blue#>, <#alpha#> )
 object:setLabels { frameLabel1 = <#num1#>, frameLabel2 = <#num2#>, frameLabelN = <#numN#> }
 object:setReferencePoint ( <#referencePoint#> )
 object:setSampleRate( <#r#> )
@@ -332,7 +332,7 @@ openfeint.downloadBlob ( <#blobKey#>, <#listenerFunction#> )
 openfeint.init ( <#productKey#>, <#productSecret#>, <#displayName#>, <#appId#> )
 openfeint.launchDashboard ( <#dashBoardView#> )
 openfeint.launchDashboard ( <#dashBoardView#>, <#options#> )
-openfeint.setHighScore ( { leaderboardID = <#ID#>, score = <#highScore#> <#[, displayText = displayString]#> } )
+openfeint.setHighScore ( { leaderboardID = <#ID#>, score = <#highScore#>, displayText = <#displayString#> } )
 openfeint.unlockAchievement ( <#achievementID#> )
 openfeint.uploadBlob ( <#blobKey#>, <#blobData#> )
 or
@@ -366,8 +366,8 @@ setmetatable ( <#table#>, <#metatable#> )
 setReferencePoint(display.TopLeftReferencePoint)
 sprite.add ( <#spriteSet#>, <#sequenceName#>, <#startFrame#>, <#frameCount#>, <#time#>, <#[loopParam]#> )
 sprite.newSpriteSet ( <#spriteSheet#>, <#startFrame#>, <#frameCount#> )
-sprite.newSpriteSheet ( <#spriteSheetFile#>, <#[baseDir,]#>  <#frameWidth#>, <#frameHeight#> )
-sprite.newSpriteSheetFromData( <#spriteSheetImageFile#>, <#[baseDir,]#> <#coordinateData#> )
+sprite.newSpriteSheet ( <#spriteSheetFile#>, <#baseDir#>,  <#frameWidth#>, <#frameHeight#> )
+sprite.newSpriteSheetFromData( <#spriteSheetImageFile#>, <#baseDir#>, <#coordinateData#> )
 spriteInstance.animating
 spriteInstance.currentFrame
 spriteInstance.newSprite ( <#spriteSet#> )
@@ -375,7 +375,7 @@ spriteInstance.sequence
 spriteInstance:addListener ( <#listenerFunction#> )
 spriteInstance:pause ( )
 spriteInstance:play ( )
-spriteInstance:prepare ( <#[sequence]#> )
+spriteInstance:prepare ( <#sequence#> )
 spriteSheet:dispose ( )
 stage:setFocus ( <#displayObject#> )
 store.canMakePurchases
@@ -453,7 +453,7 @@ xScale
 yOrigin
 yReference
 yScale
-addEventListener ( <#eventName#>, <#listener#> )
+addEventListener ( "<#eventName#>", <#listener#> )
 dispatchEvent( <#event#> )
 getSampleRate ( )
 getTunerFrequency ( )
@@ -490,7 +490,7 @@ credits.requestUpdate( )
 credits.showOffers( )
 event.newCredits
 event.totalCredits
-graphics.newMask( <#filename#> <#[,baseDir]#>  )
+graphics.newMask( <#filename#>, <#baseDir#>  )
 display.remove( <#object#> )
 object:contentToLocal( <#x_content#>, <#y_content#> )
 object:localToContent( <#x_content#>, <#y_content#> )
@@ -508,7 +508,7 @@ object.maskScaleY
 object.maskX
 object.maskY
 object:append( <#x#>,<#y#> <#[,...]#> )
-object:setColor( <#red#>, <#green#>, <#blue#> <#[, alpha]#> )
+object:setColor( <#red#>, <#green#>, <#blue#>, <#alpha#> )
 native.newMapView( <#left#>, <#top#>, <#width#>, <#height#> )
 system.DocumentsDirectory
 system.ResourceDirectory
