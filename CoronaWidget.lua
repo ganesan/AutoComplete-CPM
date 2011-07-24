@@ -2,9 +2,10 @@ widget.newRoundedRectButton
 widget.newButton { id = "<#id#>", x = <#position#>, y = <#position#>, width = <#buttonWidth#>, height = <#buttonHeight#>, label = "<#label#>", labelColor = { <#R#>, <#G#>, <#B#> }, size = <#fontSize#>, font = "<#fontName#>", onPress = <#functionName#>, onRelease = <#functionName#>, onEvent = <#functionName#>, emboss = <#BOOL#>, offset = <#number#>, default = "<#customImage#>", over = "<#customOverImage#>"  }
 widget.newEmbossedText ("<#myText#>", <#xPos#>, <#yPos#>, "<#fontName#>", <#size#>, { <#R#>, <#G#>, <#B#> })
 widget.newPickerWheel (<##>,<##>, <##>, <##>, <##>, <##>,  <##>)
-widget.newScrollView (<##>, <##>, <##>, <##>, <##>, <##>, <##>, <##> )
+widget.newScrollView(<#scrollTable#>)
+widget.newScrollView { x = <#startX#>, y = <#startY#>, height = <#height#>, width = <#width#>, mask = "<#stringORobject#>", background = "<#fileName#>", backgroundColor = { <#R#>, <#G#>,  <#B#>, <#Alpha#> }, hideScrollbar = <#Boolean true/false#> }
 widget.newSegmentedControl (<#buttonTable#>, { x = <#xPos#>, y = <#yPos#>, labelColor = { <#R#>, <#G#>, <#B#> }, font = "<#fontName#>", size = <#fontSize#>, padding = <#number#>, emboss = <#BOOL#> } )
-widget.newSlider { "<#id#>", <#xValue#>, <#yValue#>, <#width#>, <#startValue#>, <#callBack#>  }
+widget.newSlider { id = "<#id#>", x = <#xValue#>, y = <#yValue#>, width = <#width#>, value = <#startValue#>, callback = <#callBack#>  }
 widget.newTableView()
 widget.newTableView { width = <#widthTableItems#>, height = <#heightTableItems#>, x = <#xPos#>, y = <#yPos#>, mask = <#stringORobject#>, background = "<#fileName#>", backgroundColor = { <#R#>, <#G#>, <#B#>, <#Alpha#> }, hideScrollbar = <#true/false#>, isInfinite = <#true/false#>, bottomLineColor = { <#R#>, <#G#>, <#B#>, <#Alpha#> }, rowHeight = <#heightInPixels#>, rowColor = { <#R#>, <#G#>, <#B#>, <#Alpha#> }, downColor = { <#R#>, <#G#>, <#B#>, <#Alpha#> }, titleFont = { "<#fontName#>",  { <#R#>, <#G#>, <#B#>, <#Alpha#> }, <#fontSize#> }, subFont = { "<#fontName#>",  { <#R#>, <#G#>, <#B#>, <#Alpha#> }, <#fontSize#>  }, categoryBackground = { "<#imageFileName#>", <#width#>, >#height#> }, baseDir = <#directory#>}
 widget.newToolbar ("<#title#>", { <#customWidth#>, <#customHeight#>, "<#customGradient#>", <#baseDir#>, <#xPos#>, <#yPos#>, "<#fontName#>", { <#R#>, <#G#>, <#B#> }  } )
@@ -19,3 +20,4 @@ changeTitleText(<#listItem#>, "<#newTextString#>")
 changeSubText( <#listItem#>, "<#newTextString#>" )
 deleteRow(<#listItemObject#>)
 scrollToTop()
+scrollTable = { x = <#startX#>, y = <#startY#>, height = <#height#>, width = <#width#>, mask = "<#stringORobject#>", background = "<#fileName#>", backgroundColor = { <#R#>, <#G#>,  <#B#>, <#Alpha#> }, hideScrollbar = <#Boolean true/false#> }
