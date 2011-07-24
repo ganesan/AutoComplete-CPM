@@ -178,6 +178,9 @@ io.tmpfile ( )
 io.type ( <#obj#> )
 io.write ( <#arg1#> <#[, arg2]#> <#[, ...]#> )
 ipairs ( <#t#> )
+json.encode(<#table#>)
+json.decode(<#table#>)
+json.null()
 joint.dampingRatio
 joint.frequency
 joint.isLimitEnabled
