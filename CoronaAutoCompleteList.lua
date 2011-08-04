@@ -1,3 +1,6 @@
+ads.hide()
+ads.init( "<#providerName#>", "<#appId#>" )
+ads.show( "<#adUnitType#>", { x = <#xPos#>, y = <#yPos#>, interval = <#seconds#>, testMode = <#true/false#> } )
 analytics.init ( <#applicationKey#> ) 
 analytics.logEvent ( <#eventID#> )
 and
@@ -49,8 +52,8 @@ body:getLinearVelocity ( )
 body:resetMassData ( )
 body:setLinearVelocity ( <#xVelocity#>, <#yVelocity#> )
 break
-crypto.digest ( <#algorithm#>, <#string#> <#[, raw]#> )
-crypto.hmac ( <#algorithm#>, <#string#>, <#key#>, <#raw#> )
+crypto.digest ( <#algorithm#>, "<#string#>" <#[, raw]#> )
+crypto.hmac ( <#algorithm#>, "<#string#>", <#key#>, <#raw#> )
 crypto.md4
 crypto.md5
 crypto.sha1
@@ -69,14 +72,14 @@ display.getCurrentStage ( )
 display.loadRemoteImage ( <#url#>, <#method#>, <#listener#>, <#params#>, <#destFilename#>, <#baseDir#>, <#x, y#> )
 display.newCircle( <#xCenter#>, <#yCenter#>, <#radius#> )
 display.newGroup ( )
-display.newImage( <#filename#>, <#baseDirectory#> <#[,left,top]#> )
-display.newImage( <#parentGroup#>, <#filename#>, <#baseDirectory#>, <#left#>, <#top#>, <#isFullResolution#> )
+display.newImage( "<#filename#>", <#baseDirectory#> <#[,left,top]#> )
+display.newImage( <#parentGroup#>, "<#filename#>", <#baseDirectory#>, <#left#>, <#top#>, <#isFullResolution#> )
 display.newImageRect ( <#parentGroup#>, "<#filename#>", <#baseDirectory#>, <#width#>, <#height#> )
 display.newLine( <#[parent,]#> <#x1#>, <#y1#>, <#x2#>, <#y2#> )
 display.newRect( <#[parentGroup,]#> <#left#>, <#top#>, <#width#>, <#height#> )
 display.newRoundedRect( <#parentGroup#> <#left#>, <#top#>, <#width#>, <#height#>, <#cornerRadius#> )
 display.newText( <#parentGroup#>, "<#string#>", <#left#>, <#top#>, <#font#>, <#size#> )
-display.save ( <#displayObject#>, <#filename#>, <#baseDirectory#> )
+display.save ( <#displayObject#>, "<#filename#>", <#baseDirectory#> )
 display.screenOriginX
 display.screenOriginY
 display.setDefault( <#key#>, <#r#>, <#g#>, <#b#>, <#alpha#> )
