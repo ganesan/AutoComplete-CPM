@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>CoronaAutoCompleteList.lua</string>
+	<string>AutoCompleteLevelHelper.lua</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -25,13 +25,13 @@
 					<key>filename</key>
 					<string>CoronaUI.lua</string>
 					<key>lastUsed</key>
-					<date>2011-07-24T22:01:11Z</date>
+					<date>2011-08-07T10:49:54Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>CoronaWidget.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-04T08:53:10Z</date>
+					<date>2011-08-07T10:50:00Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -43,57 +43,57 @@
 					<key>filename</key>
 					<string>VariousLibs.lua</string>
 					<key>lastUsed</key>
-					<date>2011-06-30T15:26:24Z</date>
+					<date>2011-08-07T10:49:38Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>CoronaAutoCompleteList.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-04T08:53:11Z</date>
-					<key>selected</key>
-					<true/>
+					<date>2011-08-07T10:49:40Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>AutoCompleteLevelHelper.lua</string>
 					<key>lastUsed</key>
-					<date>2011-07-17T13:45:05Z</date>
+					<date>2011-08-07T10:50:08Z</date>
+					<key>selected</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>CoronaLevelBuilder.lua</string>
 					<key>lastUsed</key>
-					<date>2011-07-17T13:45:01Z</date>
+					<date>2011-08-07T10:50:08Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>AutoCompleteLime.lua</string>
 					<key>lastUsed</key>
-					<date>2011-07-18T10:29:42Z</date>
+					<date>2011-08-07T10:50:01Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>PubNub.lua</string>
 					<key>lastUsed</key>
-					<date>2011-07-17T23:04:54Z</date>
+					<date>2011-08-07T10:49:46Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>codeSnippets.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-04T08:53:11Z</date>
+					<date>2011-08-07T10:49:48Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>CustomVars.lua</string>
 					<key>lastUsed</key>
-					<date>2011-07-24T22:01:12Z</date>
+					<date>2011-08-07T10:49:49Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>ui.lua</string>
 					<key>lastUsed</key>
-					<date>2011-07-17T23:04:58Z</date>
+					<date>2011-08-07T10:49:53Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -104,6 +104,8 @@
 		<dict>
 			<key>children</key>
 			<array/>
+			<key>expanded</key>
+			<true/>
 			<key>name</key>
 			<string>TextMate</string>
 		</dict>
@@ -128,6 +130,20 @@
 				<integer>1</integer>
 				<key>line</key>
 				<integer>10</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>AutoCompleteLime.lua</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>22</integer>
+				<key>line</key>
+				<integer>6</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -218,6 +234,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>PubNub.lua</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>7</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>ReadMe.txt</key>
 		<dict>
 			<key>caret</key>
@@ -246,6 +276,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>VariousLibs.lua</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>38</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>codeSnippets.lua</key>
 		<dict>
 			<key>caret</key>
@@ -260,6 +304,20 @@
 			<key>firstVisibleLine</key>
 			<integer>2</integer>
 		</dict>
+		<key>ui.lua</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>336</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
@@ -267,9 +325,13 @@
 		<string>CoronaWidget.lua</string>
 		<string>codeSnippets.lua</string>
 		<string>CoronaAutoCompleteList.lua</string>
+		<string>VariousLibs.lua</string>
+		<string>ui.lua</string>
 		<string>CustomVars.lua</string>
 		<string>CoronaUI.lua</string>
 		<string>CoronaLevelBuilder.lua</string>
+		<string>AutoCompleteLime.lua</string>
+		<string>PubNub.lua</string>
 		<string>AutoCompleteLevelHelper.lua</string>
 		<string>ReadMe.txt</string>
 		<string>RoadMap.txt</string>
@@ -277,6 +339,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{287, 74}, {830, 803}}</string>
+	<string>{{277, 70}, {830, 803}}</string>
 </dict>
 </plist>
