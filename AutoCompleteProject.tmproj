@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>AutoCompleteLevelHelper.lua</string>
+	<string>CoronaAutoCompleteList.lua</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -37,7 +37,7 @@
 					<key>filename</key>
 					<string>AutoCompleteListCombined.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-04T08:50:30Z</date>
+					<date>2011-08-09T15:18:03Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -49,15 +49,15 @@
 					<key>filename</key>
 					<string>CoronaAutoCompleteList.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-07T10:49:40Z</date>
+					<date>2011-08-09T15:18:03Z</date>
+					<key>selected</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>AutoCompleteLevelHelper.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-07T10:50:08Z</date>
-					<key>selected</key>
-					<true/>
+					<date>2011-08-09T15:18:00Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -169,14 +169,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>10</integer>
+				<integer>28</integer>
 				<key>line</key>
-				<integer>3</integer>
+				<integer>574</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>136</integer>
 		</dict>
 		<key>CoronaLevelBuilder.lua</key>
 		<dict>
@@ -337,8 +337,8 @@
 		<string>RoadMap.txt</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
-	<true/>
+	<false/>
 	<key>windowFrame</key>
-	<string>{{277, 70}, {830, 803}}</string>
+	<string>{{793, 339}, {610, 532}}</string>
 </dict>
 </plist>
