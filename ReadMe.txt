@@ -10,6 +10,8 @@ Lime autocomplete is still work in progress and is not complete with the entire 
 Issues with LevelHelper list.
 PubNub is just a test.
 
+Added SQLite, it's base on what is found on luaforge.net. It can be used but the params for each function/method is not done.
+
 CoronaUI (Ansca Official lib) is written from the Reference Docs, please refer to the official documents for further info on what they do and how to use.
 
 Corona Widget Lib is first draft and not tested in CPM, it's not complete with all api's. Please refer to the official documents for further info on what they do and how to use.
