@@ -148,6 +148,10 @@ event.yInstant
 event.yStart
 event.zGravity
 event.zInstant
+event.deltaTime
+event.xRotation
+event.yRotation
+event.zRotation
 facebook.login(<#appId#>, <#listener#> <#[, permissions ]#>)
 facebook.logout()
 facebook.request(<#path#> <#[, httpMethod, params]#>)
@@ -425,7 +429,9 @@ table.maxn(<#t#>)
 table.remove(<#t#> <#[, pos]#>)
 table.sort(<#t#> <#[, comp]#>)
 then
-timer.cancel(<#timerId#>)
+timer.cancel(<#timerName#>)
+timer.pause( <#timerName#> )
+timer.resume( <#timerName#> )
 timer.performWithDelay(<#delay#>, <#listener#>, <#iterations#>)
 tonumber(<#e#> <#[, base]#>)
 tostring(<#e#>)
@@ -542,6 +548,7 @@ event.numTaps
 object.inputType = <#type#>
 physics.getGravity()
 physics.pause()
+physics.removeBody(<#bodyName#>)
 physics.setDrawMode("<#mode#>")
 physics.setGravity(<#gravityX#>, <#gravityY#>)
 physics.setPositionIterations(<#value#>)
@@ -568,10 +575,6 @@ audio.RecordAudioMixMode
 audio.PlayAndRecordMixMode
 system.setGyroscopeInterval(<#frequency#>)
 system.hasEventSource("<#gyroscope/accelerometer#>")
-event.deltaTime
-event.xRotation
-event.yRotation
-event.zRotation
 gameNetwork.init ( "<#providerName#>", "<#productKey#>", "<#secret#>", "<#displayName#>", "<#appID#>" )
 gameNetwork.request ( "<#command#>", <#[ parms ...]#> )
 gameNetwork.show ( "<#name#>", "<#[, data ...]#>" )
