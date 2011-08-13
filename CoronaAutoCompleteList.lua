@@ -152,6 +152,8 @@ event.deltaTime
 event.xRotation
 event.yRotation
 event.zRotation
+event.keyName
+event.name
 facebook.login(<#appId#>, <#listener#> <#[, permissions ]#>)
 facebook.logout()
 facebook.request(<#path#> <#[, httpMethod, params]#>)
@@ -430,8 +432,8 @@ table.remove(<#t#> <#[, pos]#>)
 table.sort(<#t#> <#[, comp]#>)
 then
 timer.cancel(<#timerName#>)
-timer.pause( <#timerName#> )
-timer.resume( <#timerName#> )
+timer.pause(<#timerName#>)
+timer.resume(<#timerName#>)
 timer.performWithDelay(<#delay#>, <#listener#>, <#iterations#>)
 tonumber(<#e#> <#[, base]#>)
 tostring(<#e#>)
@@ -575,6 +577,6 @@ audio.RecordAudioMixMode
 audio.PlayAndRecordMixMode
 system.setGyroscopeInterval(<#frequency#>)
 system.hasEventSource("<#gyroscope/accelerometer#>")
-gameNetwork.init ( "<#providerName#>", "<#productKey#>", "<#secret#>", "<#displayName#>", "<#appID#>" )
-gameNetwork.request ( "<#command#>", <#[ parms ...]#> )
-gameNetwork.show ( "<#name#>", "<#[, data ...]#>" )
+gameNetwork.init("<#providerName#>", "<#productKey#>", "<#secret#>", "<#displayName#>", "<#appID#>" )
+gameNetwork.request("<#command#>", <#[ parms ...]#> )
+gameNetwork.show("<#name#>", "<#[, data ...]#>" )
