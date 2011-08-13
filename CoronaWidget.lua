@@ -1,7 +1,7 @@
 widget.newRoundedRectButton
 widget.newButton { id = "<#id#>", x = <#position#>, y = <#position#>, width = <#buttonWidth#>, height = <#buttonHeight#>, label = "<#label#>", labelColor = { <#R#>, <#G#>, <#B#> }, size = <#fontSize#>, font = "<#fontName#>", onPress = <#functionName#>, onRelease = <#functionName#>, onEvent = <#functionName#>, emboss = <#BOOL#>, offset = <#number#>, default = "<#customImage#>", over = "<#customOverImage#>"  }
 widget.newEmbossedText ("<#myText#>", <#xPos#>, <#yPos#>, "<#fontName#>", <#size#>, { <#R#>, <#G#>, <#B#> })
-widget.newPickerWheel (<##>,<##>, <##>, <##>, <##>, <##>,  <##>)
+widget.newPickerWheel (<#paramsTable#>)
 widget.newScrollView(<#scrollTable#>)
 widget.newScrollView { x = <#startX#>, y = <#startY#>, height = <#height#>, width = <#width#>, mask = "<#stringORobject#>", background = "<#fileName#>", backgroundColor = { <#R#>, <#G#>,  <#B#>, <#Alpha#> }, hideScrollbar = <#Boolean true/false#> }
 widget.newSegmentedControl (<#buttonTable#>, { x = <#xPos#>, y = <#yPos#>, labelColor = { <#R#>, <#G#>, <#B#> }, font = "<#fontName#>", size = <#fontSize#>, padding = <#number#>, emboss = <#BOOL#> } )
@@ -21,3 +21,7 @@ changeSubText( <#listItem#>, "<#newTextString#>" )
 deleteRow(<#listItemObject#>)
 scrollToTop()
 scrollTable = { x = <#startX#>, y = <#startY#>, height = <#height#>, width = <#width#>, mask = "<#stringORobject#>", background = "<#fileName#>", backgroundColor = { <#R#>, <#G#>,  <#B#>, <#Alpha#> }, hideScrollbar = <#Boolean true/false#> }
+pickerTable = { id = "<#pickerName#>", x = <#xPos#>, y = <#yPos#>, width = <#pickerWidth#>, column1 = { data = "<#someData#>", "<#someData#>", "<#someData#>" }, column2 = { data = "<#someData#>", "<#someData#>", "<#someData#>" }, column3 = { data = "<#someData#>", "<#someData#>", "<#someData#>" }, preset = "<#usDate, euDate or time#>", startMonth = "<#month#>", startDay = "<#day#>", startYear = "<#year#>", startHour = "<#hour#>", startMinute = "<#minute#>", startAmPm = "<#Am or Pm#>"  }
+pickerTable = { id = "<#pickerName#>", x = <#xPos#>, y = <#yPos#>, width = <#pickerWidth#>, column1 = <#pickerColumn#>, column2 = <#pickerColumn#>, column3 = <#pickerColumn#>, preset = "<#usDate, euDate or time#>", startMonth = "<#month#>", startDay = "<#day#>", startYear = "<#year#>", startHour = "<#hour#>", startMinute = "<#minute#>", startAmPm = "<#Am or Pm#>"  }
+pickerColumn = { data = { "<#item1#>", "<#item2#>", "<#item3#>", "<#item4#>", "<#item5#>", "<#item6#>", "<#item7#>", "<#item8#>", "<#item9#>", "<#item10#>"  } width = <#pickerWidth#> }
+
