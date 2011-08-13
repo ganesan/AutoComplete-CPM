@@ -3,20 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>CoronaAutoCompleteList.lua</string>
+	<string>sqlite.lua</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>RoadMap.txt</string>
 			<key>lastUsed</key>
-			<date>2011-07-17T20:07:30Z</date>
+			<date>2011-08-11T08:56:16Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>ReadMe.txt</string>
 			<key>lastUsed</key>
-			<date>2011-07-17T23:00:08Z</date>
+			<date>2011-08-11T20:40:18Z</date>
 		</dict>
 		<dict>
 			<key>children</key>
@@ -43,15 +43,21 @@
 					<key>filename</key>
 					<string>VariousLibs.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-07T10:49:38Z</date>
+					<date>2011-08-11T08:55:22Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>sqlite.lua</string>
+					<key>lastUsed</key>
+					<date>2011-08-11T20:40:18Z</date>
+					<key>selected</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>CoronaAutoCompleteList.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-09T15:18:03Z</date>
-					<key>selected</key>
-					<true/>
+					<date>2011-08-11T08:42:43Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -253,9 +259,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>50</integer>
+				<integer>125</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>12</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -267,9 +273,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>10</integer>
-				<key>line</key>
 				<integer>6</integer>
+				<key>line</key>
+				<integer>9</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -304,6 +310,20 @@
 			<key>firstVisibleLine</key>
 			<integer>2</integer>
 		</dict>
+		<key>sqlite.lua</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>19</integer>
+				<key>line</key>
+				<integer>61</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>ui.lua</key>
 		<dict>
 			<key>caret</key>
@@ -325,6 +345,7 @@
 		<string>CoronaWidget.lua</string>
 		<string>codeSnippets.lua</string>
 		<string>CoronaAutoCompleteList.lua</string>
+		<string>sqlite.lua</string>
 		<string>VariousLibs.lua</string>
 		<string>ui.lua</string>
 		<string>CustomVars.lua</string>
@@ -337,8 +358,8 @@
 		<string>RoadMap.txt</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
-	<false/>
+	<true/>
 	<key>windowFrame</key>
-	<string>{{793, 339}, {610, 532}}</string>
+	<string>{{277, 346}, {886, 532}}</string>
 </dict>
 </plist>
