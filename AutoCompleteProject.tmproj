@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>AutoCompleteListCombined.lua</string>
+	<string>CoronaWidget.lua</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -31,15 +31,15 @@
 					<key>filename</key>
 					<string>CoronaWidget.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-13T21:12:31Z</date>
+					<date>2011-08-14T01:24:52Z</date>
+					<key>selected</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>AutoCompleteListCombined.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-13T21:12:55Z</date>
-					<key>selected</key>
-					<true/>
+					<date>2011-08-14T01:24:52Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -177,14 +177,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>12</integer>
+				<integer>23</integer>
 				<key>line</key>
-				<integer>622</integer>
+				<integer>415</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>610</integer>
+			<integer>403</integer>
 		</dict>
 		<key>CoronaAutoCompleteList.lua</key>
 		<dict>
@@ -233,9 +233,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>27</integer>
+				<integer>36</integer>
 				<key>line</key>
-				<integer>7</integer>
+				<integer>18</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -375,6 +375,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<false/>
 	<key>windowFrame</key>
-	<string>{{543, 45}, {898, 833}}</string>
+	<string>{{542, 45}, {898, 833}}</string>
 </dict>
 </plist>
