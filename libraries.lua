@@ -13,6 +13,8 @@ require("store")
 require("openfeint")
 require("physics")
 require("sprite")
+
+--These Libraries Are not built in to Corona, You must download and add them to your project yourself.
 require("ui")
 require("director")
 require("cmote")
