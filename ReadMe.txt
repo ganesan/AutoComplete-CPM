@@ -15,7 +15,7 @@ Simply type the first few letters in require and press the TAB key and a list wi
 Lime autocomplete is still work in progress and is not complete with the entire lib, some of them behave strange when used while some work. I don't know why that is.
 
 -------------------LevelHelper-----------------------------------
-Issues with LevelHelper list.
+There shouldn't be any issues with LevelHelper.
 
 -------------------PubNub-----------------------------------
 PubNub is just a test.
