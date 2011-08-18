@@ -361,7 +361,7 @@ package.loaded
 package.loaders
 package.seeall( <#module#> )
 pairs(<#t#>)
-pcall(<#f#>, <#arg1#>, <#...#>)
+pcall(<#f#>, <#arg1#>, <#[,...]#>)
 physics.addBody (<#object#>, "<#bodyType#>", {density = <#density#>, friction = <#friction#>, bounce = <#bounce#>, radius = <#radius#>} )
 physics.addBody (<#object#>, "<#bodyType#>", {density = <#density#>, friction = <#friction#>, bounce = <#bounce#>, shape = <#shape#>} )
 physics.newJoint("<#jointType#>", <#object1#>, <#object2#>, <#anchorX#>, <#anchorY#>)

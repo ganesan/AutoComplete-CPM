@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>CoronaWidget.lua</string>
+	<string>VariousLibs.lua</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -16,7 +16,7 @@
 			<key>filename</key>
 			<string>ReadMe.txt</string>
 			<key>lastUsed</key>
-			<date>2011-08-13T12:04:45Z</date>
+			<date>2011-08-15T23:47:53Z</date>
 		</dict>
 		<dict>
 			<key>children</key>
@@ -31,33 +31,45 @@
 					<key>filename</key>
 					<string>CoronaWidget.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-14T01:24:52Z</date>
-					<key>selected</key>
-					<true/>
+					<date>2011-08-18T00:53:00Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>format.lua</string>
+					<key>lastUsed</key>
+					<date>2011-08-16T13:37:47Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>AutoCompleteListCombined.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-14T01:24:52Z</date>
+					<date>2011-08-16T10:39:41Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>libraries.lua</string>
+					<key>lastUsed</key>
+					<date>2011-08-15T23:29:36Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>VariousLibs.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-13T21:12:48Z</date>
+					<date>2011-08-18T00:53:00Z</date>
+					<key>selected</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>sqlite.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-13T21:12:36Z</date>
+					<date>2011-08-15T23:29:51Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>CoronaAutoCompleteList.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-13T21:12:35Z</date>
+					<date>2011-08-18T00:03:21Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -125,7 +137,7 @@
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>258</integer>
+	<integer>227</integer>
 	<key>metaData</key>
 	<dict>
 		<key>AutoCompleteLevelHelper.lua</key>
@@ -177,14 +189,30 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>23</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>415</integer>
+				<integer>363</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>403</integer>
+			<integer>368</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>34</integer>
+				<key>line</key>
+				<integer>363</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>363</integer>
+			</dict>
 		</dict>
 		<key>CoronaAutoCompleteList.lua</key>
 		<dict>
@@ -198,7 +226,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>194</integer>
+			<integer>417</integer>
 		</dict>
 		<key>CoronaLevelBuilder.lua</key>
 		<dict>
@@ -277,12 +305,12 @@
 				<key>column</key>
 				<integer>47</integer>
 				<key>line</key>
-				<integer>30</integer>
+				<integer>17</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>8</integer>
+			<integer>0</integer>
 		</dict>
 		<key>RoadMap.txt</key>
 		<dict>
@@ -303,14 +331,30 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>45</integer>
 				<key>line</key>
-				<integer>38</integer>
+				<integer>23</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>57</integer>
+				<key>line</key>
+				<integer>23</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>45</integer>
+				<key>line</key>
+				<integer>23</integer>
+			</dict>
 		</dict>
 		<key>codeSnippets.lua</key>
 		<dict>
@@ -326,6 +370,50 @@
 			<key>firstVisibleLine</key>
 			<integer>2</integer>
 		</dict>
+		<key>format.lua</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>2</integer>
+				<key>line</key>
+				<integer>17</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<key>libraries.lua</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>17</integer>
+				<key>line</key>
+				<integer>25</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>sqlite.lua</key>
 		<dict>
 			<key>caret</key>
@@ -338,7 +426,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>20</integer>
+			<integer>0</integer>
 		</dict>
 		<key>ui.lua</key>
 		<dict>
@@ -358,11 +446,13 @@
 	<key>openDocuments</key>
 	<array>
 		<string>AutoCompleteListCombined.lua</string>
+		<string>format.lua</string>
 		<string>CoronaWidget.lua</string>
 		<string>codeSnippets.lua</string>
 		<string>CoronaAutoCompleteList.lua</string>
 		<string>sqlite.lua</string>
 		<string>VariousLibs.lua</string>
+		<string>libraries.lua</string>
 		<string>CustomVars.lua</string>
 		<string>CoronaUI.lua</string>
 		<string>CoronaLevelBuilder.lua</string>
@@ -373,8 +463,8 @@
 		<string>RoadMap.txt</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
-	<false/>
+	<true/>
 	<key>windowFrame</key>
-	<string>{{542, 45}, {898, 833}}</string>
+	<string>{{291, 45}, {914, 833}}</string>
 </dict>
 </plist>

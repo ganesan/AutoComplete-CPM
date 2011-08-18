@@ -15,6 +15,14 @@ display.bl
 display.bc
 display.br
 printFonts()
+format = {}
+format.font = <#fontName#>
+format.size = <#fontSize#>
+format.lineHeight = <#lineHeight#>
+format.align = "<#left/center/right#>"
+format.textColor = {<#R#>, <#G#>, <#B#>}
+display.newParagraph("<#Your Paragraph#>", <#charsPerline#>, <#formatTable#>)
+
 
 -- SpriteGrabber
 grabber.grabSheet("<#sheetName#>")
