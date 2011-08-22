@@ -29,7 +29,7 @@ CoronaUI (Ansca Official lib) is written from the Reference Docs, please refer t
 -------------------Widgets-------------------------------------
 Corona Widget Lib is still in Beta, I've added all params for each widget from the documents. You do not necessary need to use all of them, simply delete the ones you need but please refer to the official documents for further info on what they do and how to use.
 
-Note: I've added a couple of extra params to use when a widget requires a table = {}, to use them simply type
+Note: I've added a couple of extra params to use when a widget requires a table = {} for custom params etc, to use them simply type
 
 tableData = {}
 labelColor = {}
@@ -37,6 +37,7 @@ buttonTable = {} --This is for segmentedButtons
 scrollTable = {}
 pickerTable = {}
 pickerColumn = {}
+toolBarParams = {}
 
 You can ofcourse name them what ever you like after you have filled them in, I made it this way so it would be easier to fill in the params. This is optional and just something I found useful when working with these APIs.
 
