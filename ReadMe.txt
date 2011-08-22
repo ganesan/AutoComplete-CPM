@@ -40,6 +40,8 @@ pickerColumn = {}
 
 You can ofcourse name them what ever you like after you have filled them in, I made it this way so it would be easier to fill in the params. This is optional and just something I found useful when working with these APIs.
 
+-------------------build.settings-------------------------------------
+Added the most common build settings for iOS, android will come later in the future.
 
 ----------------------------------------------------------------
 These files were written with a lot of copy/paste so there might be some or many errors.....
