@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>VariousLibs.lua</string>
+	<string>CoronaAutoCompleteList.lua</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -31,7 +31,7 @@
 					<key>filename</key>
 					<string>CoronaWidget.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-18T00:53:00Z</date>
+					<date>2011-08-21T09:32:59Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -55,9 +55,7 @@
 					<key>filename</key>
 					<string>VariousLibs.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-18T00:53:00Z</date>
-					<key>selected</key>
-					<true/>
+					<date>2011-08-19T10:27:58Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -69,7 +67,9 @@
 					<key>filename</key>
 					<string>CoronaAutoCompleteList.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-18T00:03:21Z</date>
+					<date>2011-08-21T09:32:59Z</date>
+					<key>selected</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -226,7 +226,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>417</integer>
+			<integer>145</integer>
 		</dict>
 		<key>CoronaLevelBuilder.lua</key>
 		<dict>
@@ -261,9 +261,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>36</integer>
+				<integer>15</integer>
 				<key>line</key>
-				<integer>18</integer>
+				<integer>1</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -331,7 +331,7 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>45</integer>
+				<integer>0</integer>
 				<key>line</key>
 				<integer>23</integer>
 			</dict>
@@ -340,18 +340,18 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>4</integer>
 			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
-				<integer>57</integer>
+				<integer>77</integer>
 				<key>line</key>
 				<integer>23</integer>
 			</dict>
 			<key>selectTo</key>
 			<dict>
 				<key>column</key>
-				<integer>45</integer>
+				<integer>0</integer>
 				<key>line</key>
 				<integer>23</integer>
 			</dict>
@@ -463,8 +463,8 @@
 		<string>RoadMap.txt</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
-	<true/>
+	<false/>
 	<key>windowFrame</key>
-	<string>{{291, 45}, {914, 833}}</string>
+	<string>{{371, 45}, {914, 833}}</string>
 </dict>
 </plist>
