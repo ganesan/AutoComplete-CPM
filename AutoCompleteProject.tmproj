@@ -3,20 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>CoronaWidget.lua</string>
+	<string>AutoCompleteListCombined.lua</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>RoadMap.txt</string>
 			<key>lastUsed</key>
-			<date>2011-08-22T23:31:29Z</date>
+			<date>2011-08-23T11:44:41Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>ReadMe.txt</string>
 			<key>lastUsed</key>
-			<date>2011-08-22T23:31:32Z</date>
+			<date>2011-08-23T11:45:46Z</date>
 		</dict>
 		<dict>
 			<key>children</key>
@@ -31,9 +31,7 @@
 					<key>filename</key>
 					<string>CoronaWidget.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-23T00:05:35Z</date>
-					<key>selected</key>
-					<true/>
+					<date>2011-08-23T22:58:15Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -45,19 +43,21 @@
 					<key>filename</key>
 					<string>AutoCompleteListCombined.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-23T00:05:35Z</date>
+					<date>2011-08-23T23:08:53Z</date>
+					<key>selected</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>libraries.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-22T23:43:21Z</date>
+					<date>2011-08-23T23:08:53Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>VariousLibs.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-22T23:46:22Z</date>
+					<date>2011-08-23T22:58:24Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -111,7 +111,7 @@
 					<key>filename</key>
 					<string>CustomVars.lua</string>
 					<key>lastUsed</key>
-					<date>2011-08-22T23:31:57Z</date>
+					<date>2011-08-23T23:08:16Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -179,14 +179,30 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>32</integer>
+				<integer>17</integer>
 				<key>line</key>
-				<integer>776</integer>
+				<integer>770</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>760</integer>
+			<integer>762</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>41</integer>
+				<key>line</key>
+				<integer>800</integer>
+			</dict>
 		</dict>
 		<key>CoronaAutoCompleteList.lua</key>
 		<dict>
@@ -235,9 +251,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>39</integer>
+				<integer>23</integer>
 				<key>line</key>
-				<integer>4</integer>
+				<integer>18</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -277,14 +293,30 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>17</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>38</integer>
+				<integer>36</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
-			<integer>0</integer>
+			<integer>105</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>14</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>20</integer>
+				<key>line</key>
+				<integer>36</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>36</integer>
+			</dict>
 		</dict>
 		<key>RoadMap.txt</key>
 		<dict>
@@ -361,29 +393,29 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>14</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>41</integer>
+				<integer>43</integer>
 			</dict>
 			<key>columnSelection</key>
 			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>3</integer>
+			<integer>5</integer>
 			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>17</integer>
 				<key>line</key>
-				<integer>34</integer>
+				<integer>43</integer>
 			</dict>
 			<key>selectTo</key>
 			<dict>
 				<key>column</key>
-				<integer>14</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>41</integer>
+				<integer>43</integer>
 			</dict>
 		</dict>
 		<key>sqlite.lua</key>
@@ -438,6 +470,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<false/>
 	<key>windowFrame</key>
-	<string>{{364, 112}, {898, 766}}</string>
+	<string>{{365, 112}, {898, 766}}</string>
 </dict>
 </plist>
