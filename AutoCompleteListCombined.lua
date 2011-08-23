@@ -731,6 +731,7 @@ require("widget")
 require("analytics")
 require("facebook")
 require("socket.http")
+require("socket.ftp")
 require("ltn12")
 require("ads")
 require("credits")
@@ -767,6 +768,7 @@ require("viewController")
 require("slider")
 require("easingx")
 require("str")
+require("helper")
 iphone ={ },
 plist = { },
 settings = { },
