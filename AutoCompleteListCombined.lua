@@ -759,11 +759,19 @@ require("coronaui")
 require("SVGParser")
 require("XMLParser")
 require("bmf")
+require("tableView")
+require("scrollView")
+require("util")
+require("slideView")
+require("viewController")
+require("slider")
+require("easingx")
+require("str")
 iphone ={ },
 plist = { },
 settings = { },
 orientation ={ },
-default =<#"portrait"#>,
+default = "<#portrait#>",
 content = "<#landscapeLeft#>","<#landscapeRight#>","<#portrait#>","<#portraitUpsideDown#>",
 supported = { "<#landscapeLeft#>","<#landscapeRight#>","<#portrait#>","<#portraitUpsideDown#>" },
 UIAppFonts = "<#FontNameHere,AndAnotherIfYouLike#>",
@@ -787,5 +795,5 @@ CFBundleIconFile = "<#IconPNG#>",
 CFBundleIconFiles = { "<#IconPNG#>", "<#Icon@2xPNG#>",  "<#Icon-72PNG#>" },
 CFBundleDisplayName = "<#appName#>",
 CFBundleName = "<#appName#>",
-CFBundleIdentifier = "<#comDOTyourcompanyNameDOTappName#>",
+CFBundleIdentifier = "<#comDOTyourCompanyNameDOTappName#>",
 CFBundleVersion = "<#AppBundleVersion#>",
