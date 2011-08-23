@@ -15,7 +15,10 @@ sync(<#tableData#>)
 label = { "<#labelText#>" }
 labelColor = { <#R#>, <#G#>, <#B#> }
 setText("<#modifiedText#>", { <#R#>, <#G#>, <#B#> } )
+newSegmentedControl(<#buttonTable#>, { x = <#xPos#>, y = <#yPos#>, labelColor = { <#R#>, <#G#>, <#B#> }, font = "<#fontName#>", size = <#fontSize#>, padding = <#number#>, emboss = <#BOOL#> } )
+newSegmentedControl (<#buttonTable#>, <#segmentedParams#>)
 buttonTable = { { id = "<#id#>", label = "<#labelText#>", onPress = <#function#>, isDown = <#BOOL#> }, { id = "<#id#>", label = "<#labelText#>", onPress = <#function#> }, { id = "<#id#>", label = "<#labelText#>", onPress = <#function#> }   }
+segmentedParams = { x = <#xPos#>, y = <#yPos#>, labelColor = { <#R#>, <#G#>, <#B#> }, font = "<#fontName#>", size = <#fontSize#>, padding = <#number#>, emboss = <#BOOL#> }
 view
 changeTitleText(<#listItem#>, "<#newTextString#>")
 changeSubText( <#listItem#>, "<#newTextString#>" )
