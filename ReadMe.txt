@@ -33,7 +33,8 @@ Note: I've added a couple of extra params to use when a widget requires a table 
 
 tableData = {}
 labelColor = {}
-buttonTable = {} --This is for segmentedButtons 
+buttonTable = {} --This is for segmentedButtons
+segmentedParams = {} -- This is the table that holds the Params for the segmented buttons.
 scrollTable = {}
 pickerTable = {}
 pickerColumn = {}
