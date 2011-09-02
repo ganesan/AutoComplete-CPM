@@ -264,7 +264,7 @@ movieclip.newAnim(<#frames#>)
 myMap.isLocationVisible = <#Bool#>
 myMap.isScrollEnabled = <#Bool#>
 myMap.isZoomEnabled = <#Bool#>
-myMap.mapType = "<#mapType#>"
+myMap.mapType = "<#standard/satellite/hybrid#>"
 myMap:addMarker(<#latitude#>, <#longitude#>, { title = "<#Displayed Title#>", subtitle = "<#subtitle text#>" } )
 myMap:getAddressLocation(<#location#>)
 myMap:getUserLocation()
@@ -580,3 +580,4 @@ system.hasEventSource("<#gyroscope/accelerometer#>")
 gameNetwork.init("<#providerName#>", "<#productKey#>", "<#secret#>", "<#displayName#>", "<#appID#>" )
 gameNetwork.request("<#command#>", <#[ parms ...]#> )
 gameNetwork.show("<#name#>", "<#[, data ...]#>" )
+isEditable = <#true/false#>

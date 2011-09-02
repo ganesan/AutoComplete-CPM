@@ -264,7 +264,7 @@ movieclip.newAnim(<#frames#>)
 myMap.isLocationVisible = <#Bool#>
 myMap.isScrollEnabled = <#Bool#>
 myMap.isZoomEnabled = <#Bool#>
-myMap.mapType = "<#mapType#>"
+myMap.mapType = "<#standard/satellite/hybrid#>"
 myMap:addMarker(<#latitude#>, <#longitude#>, { title = "<#Displayed Title#>", subtitle = "<#subtitle text#>" } )
 myMap:getAddressLocation(<#location#>)
 myMap:getUserLocation()
@@ -580,6 +580,7 @@ system.hasEventSource("<#gyroscope/accelerometer#>")
 gameNetwork.init("<#providerName#>", "<#productKey#>", "<#secret#>", "<#displayName#>", "<#appID#>" )
 gameNetwork.request("<#command#>", <#[ parms ...]#> )
 gameNetwork.show("<#name#>", "<#[, data ...]#>" )
+isEditable = <#true/false#>
 widget.newRoundedRectButton
 widget.newButton { id = "<#id#>", buttonTheme = "<#color#>", x = <#position#>, y = <#position#>, width = <#buttonWidth#>, height = <#buttonHeight#>, label = "<#label#>", labelColor = { <#R#>, <#G#>, <#B#> }, size = <#fontSize#>, font = "<#fontName#>", onPress = <#functionName#>, onRelease = <#functionName#>, onEvent = <#functionName#>, emboss = <#BOOL#>, offset = <#number#>, default = "<#customImage#>", over = "<#customOverImage#>"  }
 widget.newEmbossedText ("<#myText#>", <#xPos#>, <#yPos#>, "<#fontName#>", <#size#>, { <#R#>, <#G#>, <#B#> })
@@ -799,3 +800,10 @@ CFBundleDisplayName = "<#appName#>",
 CFBundleName = "<#appName#>",
 CFBundleIdentifier = "<#comDOTyourCompanyNameDOTappName#>",
 CFBundleVersion = "<#AppBundleVersion#>",
+easing.inExpo
+easing.inOutExpo
+easing.inOutQuad
+easing.inQuad
+easing.linear
+easing.outExpo
+easing.outQuad

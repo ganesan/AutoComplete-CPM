@@ -1,3 +1,6 @@
+-- ui.lua
+ui.newButton { defaultSrc = "<#fileName#>", defaultX = <#width#>, defaultY = <#height#>, overSrc = "<#fileName#>", overX = <#width#>, overY = <#height#>, overScale = <#scale#>, overAlpha = <#number#>, id = "<#buttonID#>", text = "<#textString#>", font = "<#fontName#>", textColor = { <#R#>, <#G#>, <#B#>, <#A#> }, size = <#fontSize#>, emboss = <#true/false#> onEvent = <#Listener#> }
+ui.newLabel { text = "<#text#>", font = "<#fontName#>", size = <#fontSize#>, textColor = { <#R#>, <#G#>, <#B#>, <#A#> }, offset = <#number#>, align = "<#left/center/right#>"  }
 -- Bitmapfont Lib
 bmf.loadFont("<#fontname#>")
 bmf.newString(<#fontname#>, "<#string#>")

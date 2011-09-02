@@ -1,6 +1,6 @@
 RoadMap
 
-- Corona(ify) all lists so there will be less typing.
+- Corona(ify) all lists so there will be less typing and easier to code for beginners.
 
 - Improve support for Lime. 
 
