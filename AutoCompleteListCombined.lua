@@ -581,7 +581,9 @@ gameNetwork.init("<#providerName#>", "<#productKey#>", "<#secret#>", "<#displayN
 gameNetwork.request("<#command#>", <#[ parms ...]#> )
 gameNetwork.show("<#name#>", "<#[, data ...]#>" )
 isEditable = <#true/false#>
-widget.newRoundedRectButton
+widget.setSkin( "<#ios, red, mono#>" )
+graphics.newGradient({<#R#>, <#G#>, <#B#>, <#Alpha#>}, {<#R#>, <#G#>, <#B#>, <#Alpha#>}, "<#up, down, left, right#>")
+widget.skinSetting
 widget.newButton { id = "<#id#>", buttonTheme = "<#color#>", x = <#position#>, y = <#position#>, width = <#buttonWidth#>, height = <#buttonHeight#>, label = "<#label#>", labelColor = { <#R#>, <#G#>, <#B#> }, size = <#fontSize#>, font = "<#fontName#>", onPress = <#functionName#>, onRelease = <#functionName#>, onEvent = <#functionName#>, emboss = <#BOOL#>, offset = <#number#>, default = "<#customImage#>", over = "<#customOverImage#>"  }
 widget.newEmbossedText ("<#myText#>", <#xPos#>, <#yPos#>, "<#fontName#>", <#size#>, { <#R#>, <#G#>, <#B#> })
 widget.newPickerWheel (<#pickerTable#>)
@@ -592,6 +594,16 @@ widget.newSlider { id = "<#id#>", x = <#xValue#>, y = <#yValue#>, width = <#widt
 widget.newTableView()
 widget.newTableView { width = <#widthTableItems#>, height = <#heightTableItems#>, x = <#xPos#>, y = <#yPos#>, mask = <#stringORobject#>, background = "<#fileName#>", backgroundColor = { <#R#>, <#G#>, <#B#>, <#Alpha#> }, hideScrollbar = <#true/false#>, isInfinite = <#true/false#>, bottomLineColor = { <#R#>, <#G#>, <#B#>, <#Alpha#> }, rowHeight = <#heightInPixels#>, rowColor = { <#R#>, <#G#>, <#B#>, <#Alpha#> }, downColor = { <#R#>, <#G#>, <#B#>, <#Alpha#> }, titleFont = { "<#fontName#>",  { <#R#>, <#G#>, <#B#>, <#Alpha#> }, <#fontSize#> }, subFont = { "<#fontName#>",  { <#R#>, <#G#>, <#B#>, <#Alpha#> }, <#fontSize#>  }, categoryBackground = { "<#imageFileName#>", <#width#>, >#height#> }, baseDir = <#directory#>}
 widget.newToolbar ("<#title#>", { width = <#customWidth#>, height = <#customHeight#>, gradient = "<#customGradient#>", baseDir = <#baseDir#>, x = <#xPos#>, y = <#yPos#>, font = "<#fontName#>", labelColor =  { <#R#>, <#G#>, <#B#> }   } )
+newButton { id = "<#id#>", buttonTheme = "<#color#>", x = <#position#>, y = <#position#>, width = <#buttonWidth#>, height = <#buttonHeight#>, label = "<#label#>", labelColor = { <#R#>, <#G#>, <#B#> }, size = <#fontSize#>, font = "<#fontName#>", onPress = <#functionName#>, onRelease = <#functionName#>, onEvent = <#functionName#>, emboss = <#BOOL#>, offset = <#number#>, default = "<#customImage#>", over = "<#customOverImage#>"  }
+newEmbossedText ("<#myText#>", <#xPos#>, <#yPos#>, "<#fontName#>", <#size#>, { <#R#>, <#G#>, <#B#> })
+newPickerWheel (<#pickerTable#>)
+newScrollView(<#scrollTable#>)
+newScrollView { x = <#startX#>, y = <#startY#>, height = <#height#>, width = <#width#>, mask = "<#stringORobject#>", background = "<#fileName#>", backgroundColor = { <#R#>, <#G#>,  <#B#>, <#Alpha#> }, hideScrollbar = <#Boolean true/false#> }
+newSegmentedControl (<#buttonTable#>, { x = <#xPos#>, y = <#yPos#>, labelColor = { <#R#>, <#G#>, <#B#> }, font = "<#fontName#>", size = <#fontSize#>, padding = <#number#>, emboss = <#BOOL#> } )
+newSlider { id = "<#id#>", x = <#xValue#>, y = <#yValue#>, width = <#width#>, value = <#startValue#>, callback = <#callBack#>  }
+newTableView()
+newTableView { width = <#widthTableItems#>, height = <#heightTableItems#>, x = <#xPos#>, y = <#yPos#>, mask = <#stringORobject#>, background = "<#fileName#>", backgroundColor = { <#R#>, <#G#>, <#B#>, <#Alpha#> }, hideScrollbar = <#true/false#>, isInfinite = <#true/false#>, bottomLineColor = { <#R#>, <#G#>, <#B#>, <#Alpha#> }, rowHeight = <#heightInPixels#>, rowColor = { <#R#>, <#G#>, <#B#>, <#Alpha#> }, downColor = { <#R#>, <#G#>, <#B#>, <#Alpha#> }, titleFont = { "<#fontName#>",  { <#R#>, <#G#>, <#B#>, <#Alpha#> }, <#fontSize#> }, subFont = { "<#fontName#>",  { <#R#>, <#G#>, <#B#>, <#Alpha#> }, <#fontSize#>  }, categoryBackground = { "<#imageFileName#>", <#width#>, >#height#> }, baseDir = <#directory#>}
+newToolbar ("<#title#>", { width = <#customWidth#>, height = <#customHeight#>, gradient = "<#customGradient#>", baseDir = <#baseDir#>, x = <#xPos#>, y = <#yPos#>, font = "<#fontName#>", labelColor =  { <#R#>, <#G#>, <#B#> }   } )
 tableData = {  icon = { image = "<#fileName#>", width = <#pixels#>, height = <#pixels#> , base = <#directory#> , paddingTop = <#pixels#> , paddingLeft = <#pixels#> , paddingRight = <#pixels#>  }, title = "<#titleText#>", subtitle = "<#description#>", onRelease = <#function#>, onLeftSwipe = <#function#>, onRightSwipe = <#function#> }
 sync(<#tableData#>)
 label = { "<#labelText#>" }
