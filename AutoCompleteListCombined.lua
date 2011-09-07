@@ -361,7 +361,7 @@ package.loaded
 package.loaders
 package.seeall( <#module#> )
 pairs(<#t#>)
-pcall(<#f#>, <#arg1#>, <#[,...]#>)
+pcall(<#f#>, <#arg1#>, <#...#>)
 physics.addBody (<#object#>, "<#bodyType#>", {density = <#density#>, friction = <#friction#>, bounce = <#bounce#>, radius = <#radius#>} )
 physics.addBody (<#object#>, "<#bodyType#>", {density = <#density#>, friction = <#friction#>, bounce = <#bounce#>, shape = <#shape#>} )
 physics.newJoint("<#jointType#>", <#object1#>, <#object2#>, <#anchorX#>, <#anchorY#>)
@@ -440,7 +440,7 @@ tostring(<#e#>)
 transition.cancel(<#tween#>)
 transition.dissolve(<#src#>, <#dst#>, <#duration#>, <#delayDuration#> )
 transition.from(<#target#>, <#params#>)
-transition.to(<#target#>, { time = <#time#>, delay = <#time#>, alpha = <#value#>, onComplete = <#listener#>  } )
+transition.to(<#target#>, { x = <#xPos#>, y = <#yPos#>, time = <#time#>, delay = <#time#>, alpha = <#value#>, onComplete = <#listener#>  } )
 true
 type(<#v#>)
 unpack(<#list#> <#[, i [, j]]#>)
@@ -481,16 +481,16 @@ getTunerVolume()
 isRecording()
 nextFrame()
 play()
-play { startFrame = <#startFrame#>, endFrame = <#endFrame#>, loop = <#loop#>, remove = <#removeBool#> }
+play{ startFrame = <#startFrame#>, endFrame = <#endFrame#>, loop = <#loop#>, remove = <#removeBool#> }
 previousFrame()
 removeEventListener(<#eventName#>, <#listener#>)
 reverse()
-reverse { startFrame = <#startFrame#>, endFrame = <#endFrame#>, loop = <#loop#>, remove = <#removeBool#> }
+reverse{ startFrame = <#startFrame#>, endFrame = <#endFrame#>, loop = <#loop#>, remove = <#removeBool#> }
 rotate(<#deltaAngle#>)
 scale(<#scaleX#>, <#scaleY#>)
 setDrag( drag = <#true/false#> )
 setFillColor(<#red#>, <#green#>, <#blue#>, <#alpha#>)
-setLabels { frameLabel1 = <#num1#>, frameLabel2 = <#num2#>, frameLabelN = <#numN#> }
+setLabels{ frameLabel1 = <#num1#>, frameLabel2 = <#num2#>, frameLabelN = <#numN#> }
 setReferencePoint(<#referencePoint#>)
 setSampleRate(<#r#>)
 setStrokeColor(<#red#>, <#green#>, <#blue#>, <#alpha#>)
@@ -578,11 +578,11 @@ audio.PlayAndRecordMixMode
 system.setGyroscopeInterval(<#frequency#>)
 system.hasEventSource("<#gyroscope/accelerometer#>")
 gameNetwork.init("<#providerName#>", "<#productKey#>", "<#secret#>", "<#displayName#>", "<#appID#>" )
-gameNetwork.request("<#command#>", <#[ parms ...]#> )
-gameNetwork.show("<#name#>", "<#[, data ...]#>" )
+gameNetwork.request("<#command#>", <#parms#> )
+gameNetwork.show("<#name#>", "<#data#>" )
 isEditable = <#true/false#>
-widget.setSkin( "<#ios, red, mono#>" )
 graphics.newGradient({<#R#>, <#G#>, <#B#>, <#Alpha#>}, {<#R#>, <#G#>, <#B#>, <#Alpha#>}, "<#up, down, left, right#>")
+widget.setSkin( "<#ios, red, mono#>" )
 widget.skinSetting
 widget.newButton { id = "<#id#>", buttonTheme = "<#color#>", x = <#position#>, y = <#position#>, width = <#buttonWidth#>, height = <#buttonHeight#>, label = "<#label#>", labelColor = { <#R#>, <#G#>, <#B#> }, size = <#fontSize#>, font = "<#fontName#>", onPress = <#functionName#>, onRelease = <#functionName#>, onEvent = <#functionName#>, emboss = <#BOOL#>, offset = <#number#>, default = "<#customImage#>", over = "<#customOverImage#>"  }
 widget.newEmbossedText ("<#myText#>", <#xPos#>, <#yPos#>, "<#fontName#>", <#size#>, { <#R#>, <#G#>, <#B#> })
