@@ -6,6 +6,12 @@ Use AutoCompleteListCombined when adding to CPM. the .lua file extension is just
 Corona Api is first based on a copy from the Corona forum and started by the user PixelEnvision. List has been modified to be a little "smarter" and easier to understand what values goes where etc. As always, please check the Official CoronaSDK documentation
 for further info on the different APIs.
 
+-------------------CoronaAPI-----------------------------------
+graphics.newGradient(firstColorTable, secondColorTable, direction)
+Gradients only work with;
+setTextColor(gradientName)
+setFillColor(gradientName) -- Only with newRect()
+
 -------------------require("")-----------------------------------
 I added all libraries that are built in to CoronaSDK to make it a bit easier if you don't know all libraries by name. I also added a few external libs that are very popular.
 To use; 
