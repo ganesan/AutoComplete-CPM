@@ -440,7 +440,7 @@ tostring(<#e#>)
 transition.cancel(<#tween#>)
 transition.dissolve(<#src#>, <#dst#>, <#duration#>, <#delayDuration#> )
 transition.from(<#target#>, <#params#>)
-transition.to(<#target#>, { time = <#time#>, delay = <#time#>, alpha = <#value#>, onComplete = <#listener#>  } )
+transition.to(<#target#>, { x = <#xPos#>, y = <#yPos#>, time = <#time#>, delay = <#time#>, alpha = <#value#>, onComplete = <#listener#>  } )
 true
 type(<#v#>)
 unpack(<#list#> <#[, i [, j]]#>)
@@ -481,16 +481,16 @@ getTunerVolume()
 isRecording()
 nextFrame()
 play()
-play { startFrame = <#startFrame#>, endFrame = <#endFrame#>, loop = <#loop#>, remove = <#removeBool#> }
+play{ startFrame = <#startFrame#>, endFrame = <#endFrame#>, loop = <#loop#>, remove = <#removeBool#> }
 previousFrame()
 removeEventListener(<#eventName#>, <#listener#>)
 reverse()
-reverse { startFrame = <#startFrame#>, endFrame = <#endFrame#>, loop = <#loop#>, remove = <#removeBool#> }
+reverse{ startFrame = <#startFrame#>, endFrame = <#endFrame#>, loop = <#loop#>, remove = <#removeBool#> }
 rotate(<#deltaAngle#>)
 scale(<#scaleX#>, <#scaleY#>)
 setDrag( drag = <#true/false#> )
 setFillColor(<#red#>, <#green#>, <#blue#>, <#alpha#>)
-setLabels { frameLabel1 = <#num1#>, frameLabel2 = <#num2#>, frameLabelN = <#numN#> }
+setLabels{ frameLabel1 = <#num1#>, frameLabel2 = <#num2#>, frameLabelN = <#numN#> }
 setReferencePoint(<#referencePoint#>)
 setSampleRate(<#r#>)
 setStrokeColor(<#red#>, <#green#>, <#blue#>, <#alpha#>)
