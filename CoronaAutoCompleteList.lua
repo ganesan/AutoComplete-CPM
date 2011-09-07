@@ -578,6 +578,7 @@ audio.PlayAndRecordMixMode
 system.setGyroscopeInterval(<#frequency#>)
 system.hasEventSource("<#gyroscope/accelerometer#>")
 gameNetwork.init("<#providerName#>", "<#productKey#>", "<#secret#>", "<#displayName#>", "<#appID#>" )
-gameNetwork.request("<#command#>", <#[ parms ...]#> )
-gameNetwork.show("<#name#>", "<#[, data ...]#>" )
+gameNetwork.request("<#command#>", <#[ parms]#> )
+gameNetwork.show("<#name#>", "<#[ data]#>" )
 isEditable = <#true/false#>
+graphics.newGradient({<#R#>, <#G#>, <#B#>, <#Alpha#>}, {<#R#>, <#G#>, <#B#>, <#Alpha#>}, "<#up, down, left, right#>")
