@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>CoronaAutoCompleteList.lua</string>
+	<string>AutoCompleteListCombined.lua</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -43,7 +43,9 @@
 					<key>filename</key>
 					<string>AutoCompleteListCombined.lua</string>
 					<key>lastUsed</key>
-					<date>2011-10-03T07:35:19Z</date>
+					<date>2011-10-14T22:20:24Z</date>
+					<key>selected</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -85,9 +87,7 @@
 					<key>filename</key>
 					<string>CoronaAutoCompleteList.lua</string>
 					<key>lastUsed</key>
-					<date>2011-10-03T07:35:30Z</date>
-					<key>selected</key>
-					<true/>
+					<date>2011-10-14T22:20:24Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -198,16 +198,16 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>24</integer>
+				<integer>87</integer>
 				<key>line</key>
-				<integer>573</integer>
+				<integer>587</integer>
 			</dict>
 			<key>columnSelection</key>
 			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>499</integer>
 			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
@@ -220,7 +220,7 @@
 				<key>column</key>
 				<integer>14</integer>
 				<key>line</key>
-				<integer>820</integer>
+				<integer>824</integer>
 			</dict>
 		</dict>
 		<key>CoronaAutoCompleteList.lua</key>
@@ -228,14 +228,30 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>17</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>581</integer>
+				<integer>0</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>542</integer>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>87</integer>
+				<key>line</key>
+				<integer>587</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
 		</dict>
 		<key>CoronaLevelBuilder.lua</key>
 		<dict>
