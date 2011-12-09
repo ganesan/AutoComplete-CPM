@@ -546,6 +546,8 @@ event.handle
 event.action
 event.index
 event.target
+event.view
+event.tableView
 event.numTaps
 object.inputType = <#type#>
 physics.getGravity()
@@ -586,3 +588,22 @@ system.scheduleNotification(<#secondsFromNow#> <#[, options]#>)
 system.scheduleNotification(<#coordinatedUniversalTime#> <#[, options]#>)
 system.cancelNotification(<#notificationId#>)
 display.newText("<#string#>", <#x#>, <#y#>, <#w#>, <#h#>, "<#fontName#>", <#fontSize#>)
+storyboard.newScene()
+storyboard.gotoScene(<#[showActivityIndicatorBool#> "<#sceneName#>" <#[, effect, effectTime]#>)
+storyboard.purgeScene("<#sceneName#>")
+storyboard.removeScene("<#sceneName#>")
+storyboard.getPrevious()
+storyboard.getScene("<#sceneName#>")
+storyboard.purgeAll()
+storyboard.removeAll()
+display.newRetinaText(<#[parentGroup,]#> "<#string#>", <#left#>, <#top#>, <#width#>, <#height#>, "<#fontName#>", <#size#>)
+display.newEmbossedText(<#[parentGroup,]#> "<#string#>", <#left#>, <#top#>, <#width#>, <#height#>, "<#fontName#>", <#size#>, {<#R#>, <#G#>, <#B#>, <#Alpha#>})
+widget.newButton(<#[options]#>)
+widget.newSlider (<#[options]#>)
+widget.newScrollView(<#[options]#>)
+widget.newTableView(<#listOptions#>)
+widget.newTabBar(<#[options]#>)
+widget.newPickerWheel(<#[options]#>)
+widget.setTheme("<#themeFile#>")
+listOptions = { bgColor = {<#Red#>, <#Green#>, <#Blue#>, <#Alpha#>}, left = <#number#>, top = <#number#>, width = <#tableWidth#>, height =<#tableHeight#>, topPadding = <#number#>, bottomPadding = <#number#>, renderThresh = <#default 150#>, friction = <#default 0.935#>, maskFile = "<#assets/#>"}
+system.setLocationThreshold(<#distanceInMeters#>)

@@ -27,6 +27,8 @@ There shouldn't be any issues with LevelHelper.
 PubNub is just a test.
 
 -------------------SQLite3-----------------------------------
+NOTE; PLEASE USE THE CoronaAutoCompleteList.lua file for CoronaProjectManager.
+
 Added SQLite, it's base on what is found on luaforge.net. It can be used but the params for each function/method is not done.
 
 -------------------CoronaUI----------------------------------- 
@@ -39,7 +41,7 @@ Note: I've added a couple of extra params to use when a widget requires a table 
 
 tableData = {}
 labelColor = {}
-buttonTable = {} --This is for segmentedButtons
+buttonTable = {} --This is for segmentedButtons opensource lib, this was removed from the widget lib.
 segmentedParams = {} -- This is the table that holds the Params for the segmented buttons.
 scrollTable = {}
 pickerTable = {}

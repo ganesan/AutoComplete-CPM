@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>AutoCompleteListCombined.lua</string>
+	<string>CoronaAutoCompleteList.lua</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -31,7 +31,7 @@
 					<key>filename</key>
 					<string>CoronaWidget.lua</string>
 					<key>lastUsed</key>
-					<date>2011-09-03T22:46:10Z</date>
+					<date>2011-11-15T23:27:55Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -43,15 +43,13 @@
 					<key>filename</key>
 					<string>AutoCompleteListCombined.lua</string>
 					<key>lastUsed</key>
-					<date>2011-10-14T22:20:24Z</date>
-					<key>selected</key>
-					<true/>
+					<date>2011-11-15T23:33:13Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>libraries.lua</string>
 					<key>lastUsed</key>
-					<date>2011-09-04T19:03:34Z</date>
+					<date>2011-11-15T23:28:36Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -87,7 +85,9 @@
 					<key>filename</key>
 					<string>CoronaAutoCompleteList.lua</string>
 					<key>lastUsed</key>
-					<date>2011-10-14T22:20:24Z</date>
+					<date>2011-11-15T23:33:13Z</date>
+					<key>selected</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -152,7 +152,7 @@
 					<key>filename</key>
 					<string>coda.lua</string>
 					<key>lastUsed</key>
-					<date>2011-10-03T07:35:30Z</date>
+					<date>2011-11-15T19:59:39Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -198,59 +198,43 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>87</integer>
+				<integer>38</integer>
 				<key>line</key>
-				<integer>587</integer>
+				<integer>514</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>499</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>14</integer>
-				<key>line</key>
-				<integer>824</integer>
-			</dict>
+			<integer>600</integer>
 		</dict>
 		<key>CoronaAutoCompleteList.lua</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>10</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>548</integer>
 			</dict>
 			<key>columnSelection</key>
 			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>519</integer>
 			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
-				<integer>87</integer>
+				<integer>12</integer>
 				<key>line</key>
-				<integer>587</integer>
+				<integer>547</integer>
 			</dict>
 			<key>selectTo</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>10</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>548</integer>
 			</dict>
 		</dict>
 		<key>CoronaLevelBuilder.lua</key>
@@ -407,7 +391,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>748</integer>
+			<integer>0</integer>
 		</dict>
 		<key>codeSnippets.lua</key>
 		<dict>
@@ -451,7 +435,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>19</integer>
+			<integer>0</integer>
 			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
@@ -567,6 +551,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{248, 4}, {915, 874}}</string>
+	<string>{{228, 4}, {1192, 874}}</string>
 </dict>
 </plist>
